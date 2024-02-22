@@ -1,6 +1,11 @@
 package Ejercicios_2;
-
 import java.util.Scanner;
+
+/**
+Crea un programa que pida al usuario dos números y
+muestre el resultado de su división. Si el segundo
+número es 0, debe mostrar un mensaje de error
+*/
 
 public class ejercicio_3 {
     public static void main(String[] args) {
