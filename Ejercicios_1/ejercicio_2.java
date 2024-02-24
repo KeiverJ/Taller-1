@@ -1,8 +1,7 @@
 package Ejercicios_1;
 import java.util.Scanner;
 /**Escribir un programa que calcule el perimetro y
-área de un rectángulo dada su base y su altura
-*/
+área de un rectángulo dada su base y su altura*/
 public class ejercicio_2 {
     public static void main (String args[]) {
         Scanner teclado = new Scanner (System.in);

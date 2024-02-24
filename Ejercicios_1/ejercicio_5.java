@@ -1,8 +1,7 @@
 package Ejercicios_1;
 import java.util.Scanner;
 /**Realizar un programa que reciba una temperatura Fahrenheit
-y la convierta a grados Celsius
- */
+y la convierta a grados Celsius*/
 public class ejercicio_5 {
     public static void main (String args[]) {
         Scanner teclado = new Scanner (System.in);

@@ -2,8 +2,7 @@ package Ejercicios_1;
 import java.util.Scanner;
 /**Escribir un programa que nos devuelva la
 hipotenusa de un triángulo rectángulo conociendo
-sus catetos
-*/
+sus catetos*/
 public class ejercicio_3 {
     public static void main (String args[]) {
         Scanner teclado = new Scanner (System.in);

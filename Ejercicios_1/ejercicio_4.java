@@ -2,8 +2,7 @@ package Ejercicios_1;
 import java.util.Scanner;
 /**Realiza un programa que dados dos números
 muestre la suma resta división y multiplicación de
-ambos
- */
+ambos*/
 public class ejercicio_4 {
     public static void main (String args []){
         Scanner teclado = new Scanner (System.in);
