@@ -51,9 +51,9 @@ public class ejercicio_21 {
         System.out.println("La suma de los numeros que estan entre los limites " + lim_inf +"-" + lim_sup +" es: " + total);
         System.out.println("Se digitaron " + i + " números fuera del intervalo " + lim_inf +"-"+ lim_sup);
         if (dato_lim == true){
-          System.out.println("Alguno de los valores introducidos ha coincidido con alguno de los límites del intervalo");
+          System.out.println("Si se introdujeron los mismos valores de los limites");
         } else {
-          System.out.println("No se ha introducido ningún valor igual a los límites del intervalo");
+          System.out.println("No se ha introducido ningun valor similar a los limites");
         }
       }
 }
