@@ -7,7 +7,7 @@ public class ejercicio_1 {
     public static void main (String args []) {
         Scanner teclado = new Scanner (System.in);
         System.out.print ("Ingrese su nombre:  ");
-        String nom = teclado.nextLine ();
-        System.out.println ("Hola usuario: "+nom);
+        String nombre = teclado.nextLine ();
+        System.out.println ("Hola usuario: "+ nombre);
     }
 }
