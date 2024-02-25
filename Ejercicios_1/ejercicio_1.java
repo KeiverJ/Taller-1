@@ -8,5 +8,7 @@ public class ejercicio_1 {
         System.out.print ("Ingrese su nombre:  ");
         String nombre = teclado.nextLine ();
         System.out.println ("Hola usuario: "+ nombre);
+
+        teclado.close();
     }
 }

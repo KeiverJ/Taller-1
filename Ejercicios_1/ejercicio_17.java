@@ -34,5 +34,7 @@ public class ejercicio_17 {
         else {
             System.out.println ("Chao");
         }
+
+        teclado.close();
     }
 }

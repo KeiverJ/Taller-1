@@ -11,5 +11,7 @@ public class ejercicio_7 {
         int horas = min / 60;
         int min_1 = min % 60;
         System.out.println ("La cantidad en horas es: "+ horas +" y en minutos es de: " +min_1);
+
+        teclado.close();
     }
 }

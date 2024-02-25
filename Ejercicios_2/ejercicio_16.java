@@ -54,6 +54,7 @@ public class ejercicio_16 {
             }
         }
 
+        teclado.close();
 
     }
 }

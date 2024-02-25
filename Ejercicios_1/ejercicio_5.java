@@ -9,5 +9,7 @@ public class ejercicio_5 {
         double fah = teclado.nextDouble();
         double cel = (fah-32) /1.8;
         System.out.println ("La conversion a celsiuls es: "+cel);
+
+        teclado.close();
     }
 }

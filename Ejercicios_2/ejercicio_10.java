@@ -34,5 +34,7 @@ public class ejercicio_10 {
         } else if (tipo.equalsIgnoreCase("B") && tamaño == 2) {
             System.out.println("El precio final es: " + ((kilo * precio) - (kilo * 0.50)));
         }
+
+        teclado.close();
     }
 }

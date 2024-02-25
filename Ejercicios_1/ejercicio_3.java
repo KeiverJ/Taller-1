@@ -14,7 +14,7 @@ public class ejercicio_3 {
         System.out.println ("El valor de la hipotenusa del rectangulo es de: "+hyp);
 
 
-
+        teclado.close();
 
     }
 }

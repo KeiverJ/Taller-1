@@ -42,5 +42,7 @@ public class ejercicio_7 {
         } else if (distancia < (r1+r2) && distancia > Math.abs(r1-r2)) {
           System.out.println("La clasificacion es: Secantes.");
         }
+
+        teclado.close();
     }
 }

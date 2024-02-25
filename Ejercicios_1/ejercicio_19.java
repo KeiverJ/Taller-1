@@ -20,12 +20,15 @@ public class ejercicio_19 {
         System.out.println("Digite la cantidad de respuestas no contestadas");
         int respuestas_vacias = teclado.nextInt();
         
-       
+        teclado.close();
+        
         for (i=0; i<=respuestas_buenas; i++){
             respuestas_buenas_finales = i * 5;
         } 
         
         int calificacion = respuestas_buenas_finales - respuestas_malas;
         System.out.println("Su calificación es de: " + calificacion);
+        
+        
     }
 }

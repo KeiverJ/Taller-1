@@ -27,6 +27,8 @@ public class ejercicio_23 {
             pago_i *= 2;
         }
         System.out.println("Total pagado después de " + plazo + " meses: " + pago_f + " Euros");
+
+        teclado.close();
     }
 }
 

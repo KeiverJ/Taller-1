@@ -32,5 +32,7 @@ public class ejercicio_22 {
                     System.out.println("El resultado es: " + resultado);
                 }
             }while (exponente < 0);
+
+            teclado.close();
         } 
     }

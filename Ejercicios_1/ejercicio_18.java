@@ -20,5 +20,7 @@ public class ejercicio_18 {
         iniciales = nombre.substring(0,1)+apellido1.substring(0,1)+apellido2.substring(0,1);
         
         System.out.println("Sus iniciales son: "+iniciales);
+
+        teclado.close();
     }
 }

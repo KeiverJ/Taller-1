@@ -23,6 +23,6 @@ public class ejercicio_3 {
             float division = digito_1 / digito_2;
             System.out.println("El resultado de la division es: " + division);
         }
-
+        teclado.close();
     }
 }

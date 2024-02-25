@@ -36,5 +36,7 @@ public class ejercicio_19 {
           System.out.println("Digita los caracteres a analizar, si quieres cerrar el programa, introduce un espacio");
               caracteres = teclado.nextLine(); 
          }
+
+         teclado.close();
       }
 }

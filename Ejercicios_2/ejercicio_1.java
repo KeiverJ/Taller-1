@@ -21,6 +21,7 @@ public class ejercicio_1 {
         System.out.println("El segundo número, " +numero2 + ", es mayor que el primer número " +numero1);
     }else {
         System.out.println("Ambos números son iguales, " +numero1);
-    }    
+    }  
+    teclado.close();  
   }
 }

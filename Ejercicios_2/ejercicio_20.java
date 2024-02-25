@@ -31,5 +31,7 @@ public class ejercicio_20 {
                 System.out.print(i + ", ");
             }
         }
+
+        teclado.close();
     }
 }

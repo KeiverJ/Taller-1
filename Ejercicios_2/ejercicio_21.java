@@ -55,5 +55,7 @@ public class ejercicio_21 {
         } else {
           System.out.println("No se ha introducido ningun valor similar a los limites");
         }
+
+        teclado.close();
       }
 }

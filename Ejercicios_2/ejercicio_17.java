@@ -36,5 +36,7 @@ public class ejercicio_17 {
         if (i == 0) {
             System.out.println("Perdiste, el numero a adivinar era el: " + numero_al);
         }
+
+        teclado.close();
     }
 }

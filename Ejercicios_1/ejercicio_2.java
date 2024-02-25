@@ -13,6 +13,8 @@ public class ejercicio_2 {
         double perimetro = 2*(base+altura);
         System.out.println("El area de este rectangulo es: "+ area);
         System.out.println("El perimetro de este rectangulo es: "+perimetro);
+
+        teclado.close();
     }
 
 

@@ -26,5 +26,7 @@ public class ejercicio_20 {
         int centimos = total % 100;
 
         System.out.println("Se dispone de " +euros + " euros y "+centimos + " centimos.");
+
+        teclado.close();
     }
 }

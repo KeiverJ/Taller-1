@@ -35,5 +35,6 @@ public class ejercicio_25 {
             }
             numero++;
         }
+        teclado.close();
     }
 }

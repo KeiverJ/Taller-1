@@ -35,5 +35,7 @@ public class ejercicio_18 {
             } 
             System.out.println("La cantidad de numeros mayores a 0 son: " + a + "\n" + "La cantidad de numeros menores a 0 son: " + o + "\n" + "La cantidad de numeros iguales a 0 son: " + e);
         }
+
+        teclado.close();
     }  
 }
