@@ -29,6 +29,6 @@ public class ejercicio_19 {
         int calificacion = respuestas_buenas_finales - respuestas_malas;
         System.out.println("Su calificación es de: " + calificacion);
         
-        
+        teclado.close();
     }
 }
