@@ -12,7 +12,7 @@ public class ejercicio_6 {
         System.out.println ("Ingrese el numero 3: ");
         int num3 = teclado.nextInt ();
         int prom = (num1+num2+num3)/3;
-        System.out.println ("La medida de los 3 numeros es de: "+prom);
+        System.out.println ("La media de los 3 numeros es de: "+prom);
 
         teclado.close();
     }
