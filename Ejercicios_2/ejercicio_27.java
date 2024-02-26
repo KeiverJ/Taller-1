@@ -21,5 +21,6 @@ public class ejercicio_27 {
         for (int i = 9 ; i >= 0 ; i--) {
             System.out.println("Numero ["+(i+1)+"]: " + numeros[i]);            
         }
+        teclado.close();
     }   
 }
