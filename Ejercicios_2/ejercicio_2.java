@@ -1,4 +1,5 @@
 package Ejercicios_2;
+
 import java.util.Scanner;
 
 //EJERCICIO 2
