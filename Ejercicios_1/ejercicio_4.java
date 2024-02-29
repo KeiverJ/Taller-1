@@ -14,17 +14,14 @@ public class ejercicio_4 {
         System.out.println ("La suma de los dos numeros es de: "+suma);
         int mult = num1 * num2;
         System.out.println("La multiplicacion de los dos numeros es de: "+mult);
-        if (num1>num2){
-            int resta = num1 - num2;
-            System.out.println("La resta de los dos numeros es de: "+resta);
-        } else {
-            int resta = num2 - num1;
-            System.out.println("La resta de los dos numeros es de: "+resta);
-        } 
+        
+        int resta = num1 - num2;
+        System.out.println("La resta de los dos numeros es de: "+resta);
+
         if (num1 == 0 || num2 ==0){
             System.out.println("Error, ningun numero es divisible por cero");
         } else {
-            double div = (double) num1 / (double) num2;
+            float div = (float) num1 / (float) num2;
             System.out.println("La division de los dos numeros es de: "+div);
         }
 
