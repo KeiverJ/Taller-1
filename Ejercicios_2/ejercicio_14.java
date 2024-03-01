@@ -36,12 +36,10 @@ da un error. */
                 break;
             default:
                 System.out.println("Error: El número ingresado no corresponde a un día de la semana válido.");
-                teclado.close(); 
                 return;
         }
 
         System.out.println("El día correspondiente al número ingresado es: " + diaSemana);
-
 
         teclado.close(); 
     }
