@@ -16,38 +16,30 @@ que 6, se mostrará el mensaje: «ERROR: número incorrecto». */
         System.out.println("Ingrese el resultado obtenido al lanzar un dado de seis caras:");
         int resultadoDado = teclado.nextInt();
 
-        String caraOpuesta = "";
 
         switch (resultadoDado) {
             case 1:
-                caraOpuesta = "6";
+                System.out.println("La cara opuesta es el 6");
                 break;
             case 2:
-                caraOpuesta = "5";
+                System.out.println("La cara opuesta es el 5");
                 break;
             case 3:
-                caraOpuesta = "4";
+            System.out.println("La cara opuesta es el 4");
                 break;
             case 4:
-                caraOpuesta = "3";
+                System.out.println("La cara opuesta es el 3");
                 break;
             case 5:
-                caraOpuesta = "2";
+                System.out.println("La cara opuesta es el 2");
                 break;
             case 6:
-                caraOpuesta = "1";
+                System.out.println("La cara opuesta es el 1");
                 break;
             default:
                 System.out.println("ERROR: número incorrecto");
                 break;
         }
-
-        if (!caraOpuesta.equals("")) {
-            System.out.println("La cara opuesta al resultado obtenido es: " + caraOpuesta);
-        }
-
-
-
-teclado.close();
+        teclado.close();
     }
 }
