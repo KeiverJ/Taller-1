@@ -25,6 +25,6 @@ public class ejercicio_26 {
                     }
                         System.out.println(); 
                     }
-
+                    teclado.close();
     }
 }
