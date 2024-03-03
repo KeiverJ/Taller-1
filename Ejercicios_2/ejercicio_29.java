@@ -55,5 +55,6 @@ public class ejercicio_29 {
             }
         }
         System.out.println("| Total: " + sumaTotal);
+        teclado.close();
     }
 }

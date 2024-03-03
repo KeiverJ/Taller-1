@@ -39,5 +39,6 @@ public class ejercicio_28 {
             }
             System.out.println();
         }
+        teclado.close();
     }
 }
